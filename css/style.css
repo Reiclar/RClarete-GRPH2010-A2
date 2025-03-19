@@ -1,0 +1,157 @@
+body {
+    background-color: bisque;
+}
+
+h1 {
+    color: saddlebrown;
+    position: absolute;
+    top: -5px;
+    left: 30px;
+    font-family: "lores-12", sans-serif;
+    font-weight: 400px;
+    font-style: normal;
+    font-size: 40px;
+}
+
+a:link{
+    text-decoration: none!important;
+  }
+
+a {
+    color: saddlebrown;
+  }
+
+#subheading-1{
+    color: saddlebrown;
+    font-family: Cambria;
+    font-size: 120px;
+}
+
+#container{
+    text-align: center;
+    position: relative;
+    top: 200px
+}
+
+.par-group-1{
+    color: saddlebrown;
+    font-size: 25;
+    position: relative;
+    top: 370px;
+    text-align: center;
+    font-family: "lores-12", sans-serif;
+font-weight: 400;
+font-style: normal;
+}
+
+
+.box_item {
+    width: 100%;
+    height: 100px;
+    position: relative;
+    top: 450px;
+    text-align: center;
+    font-family: cambria;
+    font-size: 45px;
+    font-weight: bold;
+    color: saddlebrown;
+
+
+}
+
+.box_item:hover{
+    font-size: 0px;
+}
+
+.box_item:hover:after{
+    content: attr(data-hover);
+    font-size: 50px;
+    color: saddlebrown;
+    text-align: center;
+}
+
+#box{
+    width: 100%;
+    height: 1000px;
+    background-color: saddlebrown;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-position: center;
+    position: relative;
+    top: 570px;
+    left: -10px;
+}
+
+#container-small{
+    width: 550px;
+    height: 500px;
+    text-align: center;
+    background-position: center;
+    position: relative;
+    top: 120px;
+}
+
+.center{
+    margin: auto; 
+    width: 50%;
+}
+
+.par-group-2{
+    color:bisque;
+    position: relative;
+    font-size: 25px;
+    text-align: center;
+    font-weight: lighter;
+    font-family: "lores-12", sans-serif;
+    font-weight: 200px;
+    font-style: normal;
+    
+}
+
+.par-group-3{
+    color:bisque;
+    position: relative;
+    top: 30px;
+    font-size: 25px;
+    text-align: center;
+    font-family: "lores-12", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.resize{
+    width: 320px;
+    height: auto;
+    position: relative;
+    top: 20px;
+}
+
+#nav{
+    width: 100%;
+    height: auto;
+}
+
+button{
+    padding: 20px;
+    border-radius: 40px;
+    border: 5px bisque solid;
+    background-color: saddlebrown;
+    color: bisque;
+    text-align: center;
+    font-weight: bold;
+    font-size: 16px;
+    position:relative;
+    top: 50px;
+    z-index: 4;
+    align-self:  center center;
+    font-family: "lores-12", sans-serif;
+font-weight: 400;
+font-style: normal;
+    
+}
+
+button:hover{
+    background-color: rgb(165, 90, 37);
+    align-self: center;
+}

@@ -1,0 +1,120 @@
+body {
+    background-color: bisque;
+}
+
+h1 {
+    color: saddlebrown;
+    position: absolute;
+    top: -5px;
+    left: 30px;
+    font-family: "lores-12", sans-serif;
+    font-weight: 400px;
+    font-style: normal;
+    font-size: 40px;
+}
+
+a:link{
+    text-decoration: none!important;
+  }
+
+a {
+    color: saddlebrown;
+  }
+
+
+ h2{
+    color: saddlebrown;
+    font-size: 75px;
+    position:relative;
+    top: 15%;
+    text-align: center;
+    font-family: cambria;
+}
+
+p{
+    color: saddlebrown;
+    font-family: "lores-12", sans-serif;
+    font-weight: 400px;
+    font-style: normal;
+    font-size: 40px;
+    font-size: 20px;
+}
+
+
+
+#box-1{
+    width: 50%;
+    height: 1055px;
+    background-color: bisque;
+    align-items: center;
+    position: relative;
+    top: 670px;
+    left: 50%;
+    padding: 20px;
+    transform: translate(-50%, -50%);
+    border-style: dashed;
+    border-color: saddlebrown;
+    border-width: medium;
+    border-radius: 20px;
+}
+
+#box-2{
+    width: 50%;
+    height: 1250px;
+    background-color: bisque;
+    align-items: center;
+    position: relative;
+    top: 790px;
+    left: 50%;
+    padding: 20px;
+    transform: translate(-50%, -50%);
+    border-style: dashed;
+    border-color: saddlebrown;
+    border-width: medium;
+    border-radius: 20px;
+}
+
+#Breeds{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+#box-3{
+    width: 50%;
+    height: 110px;
+    background-color: bisque;
+    align-items: center;
+    position: relative;
+    top: 240px;
+    left: 50%;
+    padding: 20px;
+    transform: translate(-50%, -50%);
+    border-style: dashed;
+    border-color: saddlebrown;
+    border-width: medium;
+    border-radius: 20px;
+}
+
+#box-4{
+    width: 50%;
+    height: 530px;
+    background-color: bisque;
+    align-items: center;
+    position: relative;
+    top: 470px;
+    left: 50%;
+    padding: 20px;
+    transform: translate(-50%, -50%);
+    border-style: dashed;
+    border-color: rgb(139, 69, 19);
+    border-width: medium;
+    border-radius: 20px;
+}
+
+#container-small{
+    width: 700px;
+    height: 500px;
+    background-position: center;
+    position: relative;
+    left: 3%
+}

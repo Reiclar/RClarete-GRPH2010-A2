@@ -1,0 +1,115 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PiDGN</title>
+    <link rel="stylesheet" href="../css/facts.css">
+    <link rel="stylesheet" href="https://use.typekit.net/nqv1etc.css">
+
+</head>
+<body>
+    
+    <img src="../images/factsbg.png" alt="">
+
+    <p><a id="doc-link" href="../index.html"> 
+        <h1> PiDGN </h1>
+        </a></p>
+
+
+        <div id="filler"></div>
+
+        <div id="container">
+
+         <div id="one">  <!-- <img src="../images/bisque.png"> -->
+            <div id="title"> Fascinating Fact!</div>
+            <div id="text"> There are between 260-400 million pigeons 
+              worldwide, and most are feral birds. Many feral pigeons 
+              have the same plumage pattern as wild rock doves, so 
+              hybridization isn’t just a visual tell. Only DNA analysis 
+              can determine how much hybridization has occurred in a 
+              population, and many remain under-studied.</div>
+        </div>
+
+          <div id="two"> <!-- <img src="../images/bisque.png"> -->
+            <div id="title-2"> Fascinating Fact!</div>
+            <div id="text-2"> While pigeons are believed to be dirty birds,
+              they are actually quite clean. The risk of contracting a disease 
+              from one is quite low, and their personal hygiene is a priority. 
+              Pigeons spend most of their day grooming themselves, or otherwise 
+              find water to bathe in.</div>
+        </div>
+
+          <div id="three"> <!-- <img src="../images/bisque.png"> -->
+            <div id="title-3"> Fascinating Fact!</div>
+            <div id="text-3"> Not only can pigeons 
+              recongize mirror reflections and are better than humans at multi-tasking, 
+              but they also have amazing navigational skills and can return to their 
+              homes from up to 2092km away, even when transported to an area that they 
+              have never seen before. Scientists believe that they have a compass and 
+              map system. The compass is thought to be determined by the sun, while 
+              the source of their mapping skills is still unknown; a pleasant mystery..</div>
+        </div>
+
+
+        </div>
+      
+        <script>
+          window.addEventListener('scroll', function() {
+            let num = window.scrollY / window.innerHeight;
+            let x = 0;
+            console.log(num)
+      
+            document.getElementById('filler').style.display = 'none';
+      
+            if(num <= 1) {
+              document.getElementById('one').style.opacity = 1-num;
+              x = (1-num)*2;
+             /* document.getElementById('one').style.transform = 'translate3d('+x+'%,'+x+'%,0px) scale(1,1) rotate(-3deg)';*/
+            } else if(num > 1 && num <= 2) {
+              document.getElementById('two').style.opacity = 2-num;
+              x = (2-num)*2;
+              /*document.getElementById('two').style.transform = 'translate3d('+x+'%,-'+x+'%,0px) scale(1,1) rotate(5deg)';*/
+            } else if(num > 2 && num <= 3) {
+              document.getElementById('three').style.opacity = 3-num;
+              x = (3-num)*2;
+             /* document.getElementById('three').style.transform = 'translate3d('+x+'%,'+x+'%,0px) scale(1,1) rotate(-15deg)';*/
+            } 
+
+             /* Unable to make the following work*/
+            else if(num > 3 && num <= 4) {
+              document.getElementById('four').style.opacity = 4-num;
+              x = (4-num)*2;
+            /* document.getElementById('four').style.transform = 'translate3d('+x+'%,'+x+'%,0px) scale(1,1) rotate(0deg)';*/
+            } else if(num > 4 && num <= 5) {
+              document.getElementById('five').style.opacity = 5-num;
+              x = (5-num)*2;
+
+            } else if(num > 5 && num <= 6) {
+              document.getElementById('five').style.opacity = 6-num;
+              x = (6-num)*2;
+            
+            } else if(num > 6 && num <= 7) {
+              document.getElementById('seven').style.opacity = 7-num;
+              x = (7-num)*2;
+            
+            } else if(num > 7 && num <= 8) {
+              document.getElementById('eight').style.opacity = 8-num;
+              x = (8-num)*2;
+            
+            } else if(num > 8 && num <= 9) {
+              document.getElementById('nine').style.opacity = 9-num;
+              x = (9-num)*2;
+
+            } else {
+              document.getElementById('filler').style.display = 'block'; 
+            }
+          })
+        </script>
+
+<img class="resize" src="../images/scrollarrows.png"/>
+
+<script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+<script src="../javascript/js.js"></script>
+
+</body>
+</html>

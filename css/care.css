@@ -1,0 +1,200 @@
+body {
+    background-image: url(../images/carebg.png);
+    background-size: 100%;
+    top: -30px;
+    overflow-x: hidden;
+    background-color: bisque;
+}
+
+img {
+
+    width: 120%;
+    margin-top: -50px;
+    margin-left: -10px;
+    position: absolute;
+  }
+
+h1 {
+    color: rgb(97, 44, 6);
+    opacity: 85%;
+    font-family: "lores-12", sans-serif;
+    font-weight: 400px;
+    font-style: normal;
+    font-size: 40px;
+    position: absolute;
+    top: -5px;
+    left: 30px;
+    z-index: 4;
+}
+
+a:link{
+    text-decoration: none!important;
+  }
+
+a {
+    color: rgb(100, 46, 7);
+  }
+  
+  #main-nav {
+	position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 11;
+}
+
+#main-nav > ul > li {
+	width: 720px;
+	float: center;
+    position: relative;
+	text-align: center;
+	line-height: .9em;
+    color: bisque;
+    font-family: cambria;
+    font-size: 30px;
+	background: #8B4513;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.nav-dropdown {
+    margin: 20px auto;  
+    position: absolute;
+    top: 10px;
+    height:0px;
+    left:-999em; /* Hides the drop down according to tutorial*/  
+    text-align:left;  
+    padding: 20px;  
+    width: 700px;
+    background: rgb(162, 107, 67);
+    border-radius: 20px;
+    color: bisque;
+font-family: "lores-12", sans-serif;
+    font-weight: 400px;
+    font-style: normal;
+    font-size: 40px;
+    font-size: 20px;
+    border-bottom: 10px rgb(162, 107, 67);
+    -webkit-border-bottom-right-radius: 5px;
+	-webkit-border-bottom-left-radius: 5px;
+	-moz-border-radius-bottomright: 5px;
+	-moz-border-radius-bottomleft: 5px;
+	border-bottom-right-radius: 5px;
+	border-bottom-left-radius: 5px;
+    -webkit-transition: height 0.1s ease-in;
+    -moz-transition: height 0.1s ease-in;
+    -o-transition: height 0.1s ease-in;
+    -ms-transition: height 0.1s ease-in;
+     transition: height 0.1s ease-in;
+     
+}
+
+#main-nav li:hover .nav-dropdown {
+    left: 0;
+    top: auto;
+    z-index: 11; 
+    height:1800px;
+    border-radius: 20px;
+}
+
+
+
+#main-nav2 {
+	position: absolute;
+    top: 52.6%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#main-nav2 > ul > li {
+	width: 720px;
+	float: center;
+    position: relative;
+	text-align: center;
+	line-height: .9em;
+    color: bisque;
+    font-family: cambria;
+    font-size: 30px;
+	background: #8B4513;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.nav-dropdown {
+    margin: 20px auto;  
+    position: absolute;
+    top: 10px;
+    height:0px;
+    left:-999em; /* Hides the drop down according to tutorial*/  
+    text-align:left;  
+    padding: 20px;  
+    width: 700px;
+    background: rgb(162, 107, 67);
+    border-radius: 20px;
+    color: bisque;
+font-family: "lores-12", sans-serif;
+    font-weight: 400px;
+    font-style: normal;
+    font-size: 40px;
+    font-size: 20px;
+    border-bottom: 10px solid rgb(162, 107, 67);
+    -webkit-border-bottom-right-radius: 5px;
+	-webkit-border-bottom-left-radius: 5px;
+	-moz-border-radius-bottomright: 5px;
+	-moz-border-radius-bottomleft: 5px;
+	border-bottom-right-radius: 5px;
+	border-bottom-left-radius: 5px;
+    -webkit-transition: height 0.1s ease-in;
+    -moz-transition: height 0.1s ease-in;
+    -o-transition: height 0.1s ease-in;
+    -ms-transition: height 0.1s ease-in;
+     transition: height 0.1s ease-in;
+}
+
+    #main-nav2 li:hover .nav-dropdown {
+        left: 0;
+        top: auto;
+        z-index: 11; 
+        height:1430px;
+        border-radius: 20px;
+    }
+
+
+    #box{
+        width: 80%;
+        height: 180px;
+        background-color: bisque;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        background-position: center;
+        position: relative;
+        transform: translate(-50%, -50%);
+        top: 2300px;
+        left: 50%
+    }
+    .center{
+        margin: auto; 
+        width: 50%;
+    }
+    
+    .par-group-1{
+        color:saddlebrown;
+        position: relative;
+        font-size: 25px;
+        text-align: center;
+        font-weight: lighter;
+        font-family: "lores-12", sans-serif;
+        font-weight: 200px;
+        font-style: normal;
+        top: 50px;
+        
+    }
+    
+    .resize{
+        width: 50px;
+        height: auto;
+        position: relative;
+        top: 90px;
+        transform: rotate(180deg);
+    }
